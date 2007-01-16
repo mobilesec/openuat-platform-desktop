@@ -6,12 +6,12 @@
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
  */
-package org.eu.mayrhofer.authentication.relate;
+package org.openuat.authentication.relate;
 
-import org.eu.mayrhofer.authentication.AuthenticationEventSender;
-import org.eu.mayrhofer.authentication.AuthenticationProgressHandler;
-import org.eu.mayrhofer.authentication.DHOverTCPWithVerification;
-import org.eu.mayrhofer.authentication.HostProtocolHandler;
+import org.openuat.authentication.AuthenticationEventSender;
+import org.openuat.authentication.AuthenticationProgressHandler;
+import org.openuat.authentication.DHOverTCPWithVerification;
+import org.openuat.authentication.HostProtocolHandler;
 
 import java.io.*;
 import java.net.InetAddress;

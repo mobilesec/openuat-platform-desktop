@@ -6,7 +6,7 @@
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
  */
-package org.eu.mayrhofer.apps;
+package org.openuat.apps;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -28,9 +28,9 @@ import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.swt.widgets.Spinner;
-import org.eu.mayrhofer.authentication.exceptions.ConfigurationErrorException;
-import org.eu.mayrhofer.authentication.exceptions.InternalApplicationException;
-import org.eu.mayrhofer.channel.X509CertificateGenerator;
+import org.openuat.authentication.exceptions.ConfigurationErrorException;
+import org.openuat.authentication.exceptions.InternalApplicationException;
+import org.openuat.channel.X509CertificateGenerator;
 
 import uk.ac.lancs.relate.core.Configuration;
 import uk.ac.lancs.relate.core.DeviceException;

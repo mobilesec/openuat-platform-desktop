@@ -6,7 +6,7 @@
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
  */
-package org.eu.mayrhofer.apps;
+package org.openuat.apps;
 
 import java.io.IOException;
 
@@ -14,10 +14,10 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.ProgressBar;
-import org.eu.mayrhofer.authentication.AuthenticationProgressHandler;
-import org.eu.mayrhofer.authentication.exceptions.ConfigurationErrorException;
-import org.eu.mayrhofer.authentication.exceptions.InternalApplicationException;
-import org.eu.mayrhofer.authentication.relate.RelateAuthenticationProtocol;
+import org.openuat.authentication.AuthenticationProgressHandler;
+import org.openuat.authentication.exceptions.ConfigurationErrorException;
+import org.openuat.authentication.exceptions.InternalApplicationException;
+import org.openuat.authentication.relate.RelateAuthenticationProtocol;
 
 import uk.ac.lancs.relate.core.Configuration;
 import uk.ac.lancs.relate.core.DeviceException;

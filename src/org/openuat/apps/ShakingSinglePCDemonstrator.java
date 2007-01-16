@@ -6,7 +6,7 @@
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
  */
-package org.eu.mayrhofer.apps;
+package org.openuat.apps;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -22,14 +22,14 @@ import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.graphics.Font;
 
-import org.eu.mayrhofer.authentication.accelerometer.MotionAuthenticationParameters;
-import org.eu.mayrhofer.authentication.accelerometer.MotionAuthenticationProtocol1;
-import org.eu.mayrhofer.authentication.accelerometer.MotionAuthenticationProtocol2;
-import org.eu.mayrhofer.sensors.AsciiLineReaderBase;
-import org.eu.mayrhofer.sensors.ParallelPortPWMReader;
-import org.eu.mayrhofer.sensors.SamplesSink;
-import org.eu.mayrhofer.sensors.TimeSeriesAggregator;
-import org.eu.mayrhofer.sensors.WiTiltRawReader;
+import org.openuat.authentication.accelerometer.MotionAuthenticationParameters;
+import org.openuat.authentication.accelerometer.MotionAuthenticationProtocol1;
+import org.openuat.authentication.accelerometer.MotionAuthenticationProtocol2;
+import org.openuat.sensors.AsciiLineReaderBase;
+import org.openuat.sensors.ParallelPortPWMReader;
+import org.openuat.sensors.SamplesSink;
+import org.openuat.sensors.TimeSeriesAggregator;
+import org.openuat.sensors.WiTiltRawReader;
 
 /** This is a simple demonstrator for the shaking authentication. It
  * shows both protocol variants with a simple GUI.

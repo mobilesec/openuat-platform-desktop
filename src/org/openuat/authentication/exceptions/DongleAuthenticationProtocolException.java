@@ -6,7 +6,7 @@
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
  */
-package org.eu.mayrhofer.authentication.exceptions;
+package org.openuat.authentication.exceptions;
 
 /**
  * This exception is thrown when the authentication protocol with the Relate dongle fails.

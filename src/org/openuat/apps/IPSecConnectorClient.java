@@ -6,7 +6,7 @@
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
  */
-package org.eu.mayrhofer.apps;
+package org.openuat.apps;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -24,11 +24,6 @@ import org.eclipse.swt.widgets.ProgressBar;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Button;
-import org.eu.mayrhofer.authentication.exceptions.ConfigurationErrorException;
-import org.eu.mayrhofer.authentication.exceptions.InternalApplicationException;
-import org.eu.mayrhofer.channel.IPSecConnection;
-import org.eu.mayrhofer.channel.IPSecConnection_Factory;
-import org.eu.mayrhofer.channel.X509CertificateGenerator;
 
 import uk.ac.lancs.relate.apps.SetupHelper;
 import uk.ac.lancs.relate.core.Configuration;
@@ -39,6 +34,11 @@ import uk.ac.lancs.relate.filter.FilterTransducerNo;
 import uk.ac.lancs.relate.filter.KalmanFilter;
 
 import org.eclipse.swt.widgets.Group;
+import org.openuat.authentication.exceptions.ConfigurationErrorException;
+import org.openuat.authentication.exceptions.InternalApplicationException;
+import org.openuat.channel.IPSecConnection;
+import org.openuat.channel.IPSecConnection_Factory;
+import org.openuat.channel.X509CertificateGenerator;
 
 /** @author Rene Mayrhofer
  * @version 1.0

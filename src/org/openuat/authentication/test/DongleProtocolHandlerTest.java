@@ -6,10 +6,10 @@
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
  */
-package org.eu.mayrhofer.authentication.test;
+package org.openuat.authentication.test;
 
-import org.eu.mayrhofer.authentication.exceptions.*;
-import org.eu.mayrhofer.authentication.relate.DongleProtocolHandler;
+import org.openuat.authentication.exceptions.*;
+import org.openuat.authentication.relate.DongleProtocolHandler;
 
 import junit.framework.*;
 
